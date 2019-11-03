@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Diary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9c3b9d"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="82dp"
+            android:layout_height="78dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="4dp"
+            android:padding="9dp"
+            android:src="@drawable/newfolder" />
+
+
+        <ImageView
+            android:layout_width="79dp"
+            android:layout_height="88dp"
+            android:layout_marginRight="6dp"
+            android:src="@drawable/ic_notes" />
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="88dp"
+            android:layout_marginRight="6dp"
+            android:src="@drawable/alarmclock" />
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="88dp"
+            android:layout_marginRight="6dp"
+            android:src="@drawable/alarmicon3" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="91dp"
+            android:layout_height="110dp"
+            android:background="@drawable/ic_folder_08"
+            android:onClick="Home"
+            android:text="Love1"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="91dp"
+            android:layout_height="110dp"
+            android:background="@drawable/ic_folder_06"
+            android:text="Love1"
+            android:textAlignment="center" />
+
+
+        <Button
+            android:layout_width="86dp"
+            android:layout_height="110dp"
+            android:background="@drawable/ic_folder_03"
+            android:text="Love1"
+            android:textAlignment="center" />
+
+
+        <Button
+            android:layout_width="91dp"
+            android:layout_height="110dp"
+            android:background="@drawable/ic_folder_13"
+            android:text="Love1"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/edittxtAddress"
+        android:layout_width="315dp"
+        android:layout_height="164dp"
+        android:layout_marginLeft="34dp"
+        android:layout_weight="1"
+        android:hint="Address"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:minLines="2"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/white"
+        android:textStyle="normal" />
+
+</LinearLayout>

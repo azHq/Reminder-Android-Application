@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#969191"
+    tools:context=".Reminder">
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary">
+    </View>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/alarmInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="6dp"
+        android:onClick="add"
+        app:srcCompat="@drawable/add" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:backgroundTint="#4325d7"
+        android:onClick="add2"
+        android:text="Add"
+        android:textColor="#f5cb10"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+
+
+
+
+
+</RelativeLayout>

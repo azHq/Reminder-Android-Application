@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:layout_marginStart="6dp"
+    tools:context=".Study" >
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="173dp"
+        android:layout_height="111dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="2"
+        android:layout_rowSpan="2"
+        android:backgroundTint="#2f10b7"
+        android:fontFamily="serif"
+        android:text="Exam"
+        android:textColor="#fdfcfc"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="171dp"
+        android:layout_height="110dp"
+        android:layout_column="2"
+        android:layout_gravity="left|top"
+        android:layout_row="2"
+        android:backgroundTint="#2f10b7"
+        android:fontFamily="serif-monospace"
+        android:text="Classes"
+        android:textColor="#fdfcfc"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="172dp"
+        android:layout_height="109dp"
+        android:layout_column="2"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        android:backgroundTint="#2f10b7"
+        android:fontFamily="sans-serif"
+        android:text="Lab"
+        android:textColor="#fdfcfc"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/button8"
+        android:layout_width="176dp"
+        android:layout_height="109dp"
+        android:layout_column="0"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="3"
+        android:layout_rowSpan="2"
+        android:backgroundTint="#2f10b7"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="HomeWork"
+        android:textColor="#fdfcfc" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="170dp"
+        android:layout_height="113dp"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="4"
+        android:backgroundTint="#2f10b7"
+        android:fontFamily="sans-serif-condensed"
+        android:text="NoteBook"
+        android:textColor="#fdfcfc"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="170dp"
+        android:layout_height="115dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        android:backgroundTint="#2f10b7"
+        android:fontFamily="serif-monospace"
+        android:text="Assignment"
+        android:textColor="#fdfcfc"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="170dp"
+        android:layout_height="115dp"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="5"
+        android:layout_rowSpan="2"
+        android:backgroundTint="#2f10b7"
+        android:text="CGpa"
+        android:textColor="#fdfcfc"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="170dp"
+        android:layout_height="115dp"
+        android:layout_column="1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="5"
+        android:layout_rowSpan="2"
+        android:backgroundTint="#2f10b7"
+        android:text="books"
+        android:textColor="#fdfcfc"
+        android:textStyle="bold" />
+
+</GridLayout>

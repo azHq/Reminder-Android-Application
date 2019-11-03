@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:weightSum="2.0" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/cancel" android:background="@drawable/abc_title_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/ButtonThemeBase">
+        <TextView android:background="@null" android:padding="2.0dip" android:focusable="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="cancel" android:singleLine="true" android:drawableLeft="@drawable/ab_cancel_button" android:drawablePadding="15.0dip" style="@style/ButtonThemeBase" />
+    </LinearLayout>
+    <ImageView android:gravity="fill_vertical" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@color/colorPrimary2" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/save" android:background="@drawable/abc_title_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/ButtonThemeBase">
+        <TextView android:background="@null" android:padding="2.0dip" android:focusable="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="done" android:singleLine="true" android:drawableLeft="@drawable/ab_done_button" android:drawablePadding="15.0dip" style="@style/ButtonThemeBase" />
+    </LinearLayout>
+</LinearLayout>
